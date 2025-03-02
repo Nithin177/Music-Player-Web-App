@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Web App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="player">
+      <div class="header">Music <span>Player</span></div>
+
+      <div class="img">
+        <img decoding="async" src="assets/20230418_212503.jpg" id="thumb" />
+      </div>
+
+      <div class="details">
+        <h3 id="title">Yeno Yeno Aagide</h3>
+        <p id="musician">Singer Name</p>
+      </div>
+
+      <audio id="song"></audio>
+
+      <div class="time">
+        <span id="start">0:00</span>
+        <input type="range" id="progress" value="0" min="0" step="1" />
+        <span id="end">0:00</span>
+      </div>
+
+      <div class="action">
+        <button id="rewind">
+          <i class="bx bx-rewind"></i>
+        </button>
+
+        <button id="prev">
+          <i class="bx bx-skip-previous"></i>
+        </button>
+
+        <button class="play" id="play">
+          <i class="bx bx-play"></i>
+        </button>
+
+        <button id="next">
+          <i class="bx bx-skip-next"></i>
+        </button>
+
+        <button id="forward">
+          <i class="bx bx-fast-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
