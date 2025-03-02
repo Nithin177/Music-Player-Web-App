@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       src: "assets/[iSongs.info] 06 - Yeno Yeno Aagide.mp3",
       title: "Yeno Yeno Aagide",
-      musician: "Singer Name",
+      musician: "Hariharan",
       image: "assets/20230418_212503.jpg",
     },
     {
